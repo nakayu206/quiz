@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP編</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/php.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main-wrapper">
+      <div class="main-text">
+        <h1>PHP編<br>3択クイズ</h1>
+      </div>
+    <div class="text">
+        <h2>PHP関連するクイズが出題されます。
+            <br>出題数は10問です。8割（8点）を目標に頑張りましょう
+        
+        </h2>
+    </div>
+      
+        <div class="question">
+          <div class="question__wrapper">
+            <!-- 何問目なのかを表示 -->
+            <h2 id="js-questionNumber" class="question__number">
+              第◯問
+            </h2>
+            <p id="js-questionText" class="question__text">
+              text
+            </p>
+            <div class="question__options">
+              <button type="button" class="question__item js-questionItem">選択肢１</button>
+              <button type="button" class="question__item js-questionItem">選択肢2</button>
+              <button type="button" class="question__item js-questionItem">選択肢3</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="answer">
+          <p id="js-answerResult" class="answer__result">
+          </p>
+          <div class="button06">
+            <p id="js-answerExplanation" class="answer__explanation"></p>
+            <a href="#" button type="button" id="js-nextQuestion">次の問題へ進む</a>
+          </div>
+          <!-- <h2>解説</h2>
+          <p id="js-answerExplanation" class="answer__explanation"></p>
+    
+        </div>
+    
+        <div class="hombtn">
+            <h2>問題をやめる</h2>
+        </div> -->
+
+    <script src="js/php3.js"></script>
+</body>
+</html>

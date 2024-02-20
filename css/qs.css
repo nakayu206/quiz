@@ -1,0 +1,120 @@
+/************* 共通 *************/
+body {
+    background-image: url(../imges/R.jpg);
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius:30px;
+}
+
+.qs-wrapper {
+    padding: 150px;
+}
+
+
+.qs-text h1 {
+    color: #D7D995;
+    font-family: "Nico Moji";
+}
+h2 {
+    color: #707070;
+}
+p {
+    color: #707070;
+}
+
+
+.qs-text h2 {
+    text-align: center;
+    color: #D7D995;
+}
+/************* 共通 *************/
+
+/************* HTML_qs.css *************/
+/* ボタン */
+/* solid014 */
+.content-btn01 a{
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    box-shadow: 5px 5px 0 #fce0fb;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.content-btn01 a:hover {
+  background-color: #fce0fb;
+  box-shadow: 0 0 0;
+  transform: translate(5px, 5px);
+}
+/************* HTML_qs.css *************/
+
+/************* JavaScript_qs.css *************/
+/* ボタン */
+/* solid014 */
+.content-btn02 a{
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    box-shadow: 5px 5px 0 #CDE7F2;
+    border-radius: 50px; 
+    text-decoration: none;
+}
+.content-btn02 a:hover {
+  background-color: #CDE7F2;
+  box-shadow: 0 0 0;
+  transform: translate(5px, 5px);
+}
+
+/************* JavaScript_qs.css *************/
+
+
+/************* PHP_qs.css *************/
+/* ボタン */
+/* solid014 */
+.content-btn03 a{
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    box-shadow: 5px 5px 0 #e7eec0;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.content-btn03 a:hover {
+  background-color: #e7eec0;
+  box-shadow: 0 0 0;
+  transform: translate(5px, 5px);
+}
+
+/************* PHP_qs.css *************/

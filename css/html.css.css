@@ -1,0 +1,54 @@
+/* 次の問題に進む　ボタン */
+.button06 a {
+    background: #F7ECF6;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 10px 25px;
+    color: #393939;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button06 a:before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    right: -2em;
+    transform: translateY(calc(-50% - 2px)) rotate(30deg);
+    width: 12px;
+    height: 2px;
+    background-color: #c1c853;
+    transition: 0.3s;
+}
+.button06 a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -2em;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: #c1c853;
+    transition: 0.3s;
+}
+.button06 a:hover:before, .button006 a:hover:after {
+    right: -2.5em;
+}
+.button06 a:hover {
+    background: #fcffed;
+    color: #b0b74d;
+}
+.question__item{
+    padding: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 1%;
+    border: solid #393939 1px;
+    background-color: #f5f7c4;
+}
+.question__item:hover{
+    background: #edcccc;
+}

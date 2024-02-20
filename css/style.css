@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+main {
+    width: 50%;
+    margin: 32px auto 0;
+}
+body {
+    background-image: url(../imges/R.jpg);
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius:30px;
+}
+.main-wrapper {
+    padding: 100px;
+}
+.sentaku-wrapper {
+    padding: 100px;
+}
+h2 {
+    color: #707070;
+}
+p {
+    color: #707070;
+}
+h1 {
+    margin-bottom: 5%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    color: #D7D995;
+    font-family: "Nico Moji";
+}
+.text{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.question {
+    text-align: center;
+    
+}
+.question__text {
+    margin-bottom: 3%;
+    text-align: center;
+}
+.question__options {
+    margin: 5%;
+}
+.answer{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.hombtn{
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>目覚まし解除クイズ</title>
+  <link rel="stylesheet" href="css/alarm.css">
+</head>
+<body>
+  <div class="wrapper-contents">
+  <div class="alarm-clock">
+    <table border="0">
+      <tr><th>目覚まし時計</th></tr>
+      <tr>
+          <th style="text-align:center">
+              <div class="digital-clock">
+                  <span class="clock-hour"></span>:<span class="clock-min"></span>:<span class="clock-sec"></span>
+              </div>
+          </th>
+      </tr>
+      <tr><th>Alarm set</th></tr>
+      <tr>
+          <th>
+              <select class="alarm-hour"></select>
+              :
+              <select class="alarm-min"></select>
+              :
+              <select class="alarm-sec"></select>
+          </th>
+      </tr>
+      <tr>
+          <th>
+              <input id="btnSet" type="button" value="Set" />
+              <input id="btnReset" type="button" value="Reset" />
+          </th>
+      </tr>
+      <tr>
+          <th>
+              Alarm Sound
+              <select class="alarm-sound">
+                  <option value="music/Clock-Alarm03-01(Mid-Loop).mp3">アナログウォッチアラーム</option>
+              </select>
+          </th>
+      </tr>
+    </table>
+  </div>
+  <div class="quiz">
+    <main>
+    </main>
+  </div>
+  <audio id="alarm-sound" class="alarm-sound" loop="loop">
+    <source id="alarm-sound-source" src="music/Clock-Alarm03-01(Mid-Loop).mp3" type="audio/mp3" />
+  </audio>
+  </div>
+  <script src="js/alarm.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-image: url(../imges/top-03.jpg);
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size:  cover;  
+}
+
+
+
+.santaku-text {
+    text-align: center;
+    width: 100%;
+}
+
+.santaku-text h2 {
+    padding: 5%;
+    font-family: "Nico Moji";
+    color: #CC99B1;
+    font-size: 30px;
+}
+
+
+
+.content-btn01 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+/* 014 */
+.content-btn01 a {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 160px;
+    padding: 15px 35px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.content-btn01 a::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #F0F9D2;
+  transition: 0.2s;
+}
+
+.content-btn01 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  transform: rotate(45deg);
+}
+
+.content-btn01 a:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.content-btn01 a:hover {
+  text-decoration: none;
+  background-color: #F0F9D2;
+}
+
+
+
+
+.content-btn02 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* 014 */
+.content-btn02 a {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 160px;
+    padding: 15px 35px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.content-btn02 a::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #EDFEE1;
+  transition: 0.2s;
+}
+
+.content-btn02 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  transform: rotate(45deg);
+}
+
+.content-btn02 a:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.content-btn02 a:hover {
+  text-decoration: none;
+  background-color: #EDFEE1;
+}
+
+
+
+
+.content-btn03 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* 014 */
+.content-btn03 a {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 160px;
+    padding: 15px 35px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.content-btn03 a::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #DFFAFF;
+  transition: 0.2s;
+}
+
+.content-btn03 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  transform: rotate(45deg);
+}
+
+.content-btn03 a:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.content-btn03 a:hover {
+  text-decoration: none;
+  background-color: #DFFAFF;
+}
+
+.content-btn04 {
+  width: 100%;
+  margin-top: 5%;
+}
+
+/* 014 */
+.content-btn04 a {
+  background: #eee;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 160px;
+  padding: 15px 35px;
+  color: #313131;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+}
+.content-btn04 a::before {
+content: '';
+position: absolute;
+top: -5px;
+left: -5px;
+width: calc(100% - 4px);
+height: calc(100% - 4px);
+border: 2px solid #f6e8db;
+transition: 0.2s;
+}
+
+.content-btn04 a::after {
+content: '';
+width: 5px;
+height: 5px;
+border-top: 3px solid #333333;
+border-right: 3px solid #333333;
+transform: rotate(45deg);
+}
+
+.content-btn04 a:hover::before {
+top: 0;
+left: 0;
+}
+
+.content-btn04 a:hover {
+text-decoration: none;
+background-color: #f5d6b9;
+}
